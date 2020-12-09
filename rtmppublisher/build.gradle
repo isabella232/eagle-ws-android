@@ -19,10 +19,8 @@ android {
         }
 
         release {
-            minifyEnabled true
             debuggable false
             buildConfigField "String", "SERVER_URL", '"https://lex.infosysapps.com"'
-            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
     }
 }
